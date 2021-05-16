@@ -35,7 +35,6 @@ export default function Index() {
             justifyContent='flex-start'
             alignItems='flex-start'
             maxWidth='700px'
-
           >
           <Heading mb={2}>Hi, I'm Haadi Majeed</Heading>
           <Text color={colorSecondary[colorMode]}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ante nunc, finibus sit amet purus quis, congue vulputate ipsum. Phasellus lobortis bibendum orci, quis imperdiet lectus imperdiet porttitor.</Text>
