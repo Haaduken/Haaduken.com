@@ -9,6 +9,7 @@ import NextLink from 'next/link'
 import styled from '@emotion/styled'
 
 import DarkModeSwitch from '../components/DarkModeSwitch'
+import Footer from './Footer'
 
 const Container = ({ children }) => {
     const { colorMode } = useColorMode()
@@ -77,6 +78,7 @@ const Container = ({ children }) => {
                 mt={[4, 8, 8]}
             >
                 {children}
+                <Footer/>
             </Flex>
         </>
     )
