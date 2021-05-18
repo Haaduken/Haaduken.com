@@ -35,10 +35,20 @@ export default function Index() {
             justifyContent='flex-start'
             alignItems='flex-start'
             maxWidth='700px'
+            // marginBottom='5rem'
           >
-          <Heading mb={2}>Duty Phone Calls Recieved</Heading>
-          <Text color={colorSecondary[colorMode]}>Part of my job as a Community Advisor (CA or also RA) is to be on call for the building I am located in. I tend to get more calls on my nights than my colleagues, so I began graphing it all.</Text>
-          <iframe width="600" height="371" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2jBaegHT_RfOVYY2BHP93Dpr5EI1GQZihDYYjV_rgzQrTM9r27FmnrNWzvdR2kUFSGdX6i9l_BGw5/pubchart?oid=1800042730&amp;format=interactive"></iframe>
+            <Heading mb={2}>Duty Phone Calls Received</Heading>
+            <Text color={colorSecondary[colorMode]}>Part of my job as a Community Advisor (CA or also RA) is to be on call for the building I am located in. I tend to get more calls on my nights than my colleagues, so I began graphing it all.</Text>
+            <Flex 
+              flexDirection='column'
+              justifyContent='center'
+              alignItems='center'
+              marginTop='2rem'
+            >
+              <iframe width="600" height="371" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2jBaegHT_RfOVYY2BHP93Dpr5EI1GQZihDYYjV_rgzQrTM9r27FmnrNWzvdR2kUFSGdX6i9l_BGw5/pubchart?oid=7864568&amp;format=interactive"></iframe>
+
+              <iframe width="600" height="371" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2jBaegHT_RfOVYY2BHP93Dpr5EI1GQZihDYYjV_rgzQrTM9r27FmnrNWzvdR2kUFSGdX6i9l_BGw5/pubchart?oid=1800042730&amp;format=interactive"></iframe>
+            </Flex>
           </Flex>
         </Stack>
       </Container>

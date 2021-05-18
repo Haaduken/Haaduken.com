@@ -7,7 +7,7 @@ import { Code, Business, Email, GitHub } from '@material-ui/icons'
 // class Footer extends React.Component{
 //     componentDidMount () {
 //         const script = document.createElement("script");
-//         script.src = "../lib/getGitInfo.js";
+//         
 //         script.async = true;
 //         document.body.appendChild(script);
 //         return (
@@ -20,7 +20,7 @@ import { Code, Business, Email, GitHub } from '@material-ui/icons'
 
 const Footer = () => (
     <Flex justify="center">
-        <script src="lib/getGitInfo.js"></script>
+        {/* <script src="lib/getGitInfo.js"></script> */}
         <div id="gitTime"></div>
       <Link href="https://github.com/GhastlyFlame" title="GitHub" isExternal>
         <IconButton
