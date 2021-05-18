@@ -4,9 +4,9 @@ import {
   Heading,
   Text,
   Flex,
-  Link,
   Stack
 } from '@chakra-ui/react'
+
 import Container from '../components/Container'
 
 export default function Index() {
@@ -19,7 +19,7 @@ export default function Index() {
     <>
       <Container>
         <Head>
-          <title>Home- Haaduken</title>
+          <title>Calls- Haaduken</title>
         </Head>
         <Stack
           as="main"
@@ -36,12 +36,9 @@ export default function Index() {
             alignItems='flex-start'
             maxWidth='700px'
           >
-          <Heading mb={2}>Hi, I'm Haadi Majeed</Heading>
-          <Text color={colorSecondary[colorMode]}>Welcome to Haaduken
-          <Link color={colorSecondary[colorMode]} href="/memes">
-              !
-          </Link> 
-          {' '}I'm a to-be senior in Computer Engineering at Iowa State University, and have taken the task of creating a website to learn. You can read more about the website in the blog section. Development of the site going along nicely, however as I continue to develop it, I have to stop and learn all about the new framework that I have switched to.</Text>
+          <Heading mb={2}>Duty Phone Calls Recieved</Heading>
+          <Text color={colorSecondary[colorMode]}>Part of my job as a Community Advisor (CA or also RA) is to be on call for the building I am located in. I tend to get more calls on my nights than my colleagues, so I began graphing it all.</Text>
+          <iframe width="600" height="371" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2jBaegHT_RfOVYY2BHP93Dpr5EI1GQZihDYYjV_rgzQrTM9r27FmnrNWzvdR2kUFSGdX6i9l_BGw5/pubchart?oid=1800042730&amp;format=interactive"></iframe>
           </Flex>
         </Stack>
       </Container>
