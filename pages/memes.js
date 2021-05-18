@@ -49,26 +49,19 @@ export default function Index() {
                 <ListItem py={2}>
                   <Flex alignItems="center" justifyContent="space-between">
                     <Flex alignItems="center" fontWeight={100}>
-                      <Link
-                        _hover={{ textDecoration: "none" }}
-                        href={`./memes/${meme.name
-                          .toLowerCase()
-                          .replace(/ +/g, "")}`}
-                      >
-                        <Flex alignItems="center" fontWeight={100}>
-                          <Text fontSize="2xl" mr="0.5em">
-                            {meme.icon}
-                          </Text>
-                          <Text
-                            fontWeight={400}
-                            fontSize="lg"
-                            lineHeight="shorter"
-                            w={["3em", "5em", "8em"]}
-                          >
-                            {meme.name}
-                          </Text>
-                        </Flex>
-                      </Link>
+                      <Flex alignItems="center" fontWeight={100}>
+                        <Text fontSize="2xl" mr="0.5em">
+                          {meme.icon}
+                        </Text>
+                        <Text
+                          fontWeight={400}
+                          fontSize="lg"
+                          lineHeight="shorter"
+                          w={["3em", "5em", "8em"]}
+                        >
+                          {meme.name}
+                        </Text>
+                      </Flex>
                     </Flex>
                     <Flex>
                       {meme.hasOwnProperty("source") ? (
