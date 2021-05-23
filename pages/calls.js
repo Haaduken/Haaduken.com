@@ -45,9 +45,9 @@ export default function Index() {
               alignItems='center'
               marginTop='2rem'
             >
-              <iframe width="600" height="371" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2jBaegHT_RfOVYY2BHP93Dpr5EI1GQZihDYYjV_rgzQrTM9r27FmnrNWzvdR2kUFSGdX6i9l_BGw5/pubchart?oid=7864568&amp;format=interactive"></iframe>
+              <iframe width="539" height="334" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2jBaegHT_RfOVYY2BHP93Dpr5EI1GQZihDYYjV_rgzQrTM9r27FmnrNWzvdR2kUFSGdX6i9l_BGw5/pubchart?oid=7864568&amp;format=interactive"></iframe>
 
-              <iframe width="600" height="371" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2jBaegHT_RfOVYY2BHP93Dpr5EI1GQZihDYYjV_rgzQrTM9r27FmnrNWzvdR2kUFSGdX6i9l_BGw5/pubchart?oid=1800042730&amp;format=interactive"></iframe>
+              <iframe width="539" height="334" seamless frameBorder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2jBaegHT_RfOVYY2BHP93Dpr5EI1GQZihDYYjV_rgzQrTM9r27FmnrNWzvdR2kUFSGdX6i9l_BGw5/pubchart?oid=1800042730&amp;format=interactive"></iframe>
             </Flex>
           </Flex>
         </Stack>
