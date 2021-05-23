@@ -57,7 +57,7 @@ export default function Index() {
                           fontWeight={400}
                           fontSize="lg"
                           lineHeight="shorter"
-                          w={["3em", "5em", "8em"]}
+                          w={["13em", "15em", "18em"]}
                         >
                           {meme.name}
                         </Text>
