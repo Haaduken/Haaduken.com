@@ -41,7 +41,7 @@ export default function Index() {
           <Link color={colorSecondary[colorMode]} href="/memes">
               !
           </Link> 
-          {' '}I'm a to-be senior in Computer Engineering at Iowa State University, and have taken the task of creating a website to learn. You can read more about the website in the blog section. Development of the site going along nicely, however as I continue to develop it, I have to stop and learn all about the new framework that I have switched to.</Text>
+          {' '}I'm a senior in Computer Engineering at Iowa State University, and have taken the task of creating a website to learn. You can read more about the website in the blog section. Development of the site going along nicely, however as I continue to develop it, I have to stop and learn all about the new framework that I have switched to.</Text> 
           </Flex>
         </Stack>
       </Container>
