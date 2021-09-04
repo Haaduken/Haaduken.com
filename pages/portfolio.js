@@ -37,7 +37,7 @@ export default function Index() {
             maxWidth='700px'
           >
           <Heading mb={2}>Portfolio</Heading>
-          <Text color={colorSecondary[colorMode]}>Text goes here</Text>
+          <Text color={colorSecondary[colorMode]}>Since starting college, I have worked on many projects, both personal and for various courses. I wanted to take this chance to reflect on them and display both what I learned and what came out of the bigger projects.</Text>
           </Flex>
         </Stack>
       </Container>
