@@ -60,7 +60,7 @@ const Container = ({ children }) => {
                             Home
                         </Button>
                     </NextLink>
-                    <NextLink href="/aboutMe" passHref>
+                    <NextLink href="/aboutme" passHref>
                         <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }}>
                             About Me
                         </Button>

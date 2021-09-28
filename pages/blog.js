@@ -1,19 +1,18 @@
-import React, { useState } from 'react'
-import Head from 'next/head'
 import {
-    Heading,
     Flex,
-    Stack,
+    Heading,
     Input,
     InputGroup,
-    InputRightElement
+    InputRightElement,
+    Stack
 } from '@chakra-ui/react'
+import React, { useState } from 'react'
 
-import Container from '../components/Container'
-import { getAllFilesFrontMatter } from '../lib/mdx'
 import BlogPost from '../components/BlogPost'
-
+import Container from '../components/Container'
+import Head from 'next/head'
 import { SearchIcon } from '@chakra-ui/icons'
+import { getAllFilesFrontMatter } from '../lib/mdx'
 
 export default function Blog({ posts }) {
     const [searchValue, setSearchValue] = useState('')
