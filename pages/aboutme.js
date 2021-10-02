@@ -13,7 +13,7 @@ export default function Index() {
     <>
       <Container>
         <Head>
-          <title>Home- Haaduken</title>
+          <title>About Me- Haaduken</title>
         </Head>
         <Stack
           as="main"
@@ -32,12 +32,12 @@ export default function Index() {
           >
             <Heading mb={2}>About Me</Heading>
             <Text color={colorSecondary[colorMode]}>
-              I am a senior at Iowa State University majoring in Computer
-              Engineering. I have done a good number of projects, both for
-              courses and on the side, which can be found both on my GitHub and
-              also on the portfolio tab of the site as well. Also, if you wish
-              to contact me, there is a email button that can be found at the
-              bottom of each page on this site!
+              I am Haadi Majeed, a senior at Iowa State University majoring in
+              Computer Engineering. I have done a good number of projects, both
+              for courses and on the side, which can be found both on my GitHub
+              and also on the portfolio tab of the site as well. Also, if you
+              wish to contact me, there is a email button that can be found at
+              the bottom of each page on this site!
             </Text>
             <br />
             <Text color={colorSecondary[colorMode]}>
