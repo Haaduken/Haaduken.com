@@ -1,4 +1,4 @@
-import { Business, Code, Email, GitHub } from "@material-ui/icons";
+import { Business, Code, Email, GitHub, LinkedIn } from "@material-ui/icons";
 import { Flex, IconButton, Link } from "@chakra-ui/react";
 import React, { Component } from "react";
 
@@ -31,6 +31,20 @@ const Footer = () => (
         variant="ghost"
       >
         <GitHub fontSize="small" />
+      </IconButton>
+    </Link>
+    <Link
+      href="https://www.linkedin.com/in/haadi-m-19869712a/"
+      title="LinkedIn"
+      isExternal
+    >
+      <IconButton
+        aria-label="LinkedIn"
+        size="lg"
+        color="gray.500"
+        variant="ghost"
+      >
+        <LinkedIn fontSize="small" />
       </IconButton>
     </Link>
     <Link href="mailto:haadi.majeed99@gmail.com" title="Email" isExternal>

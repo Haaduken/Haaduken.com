@@ -37,7 +37,7 @@ export default function Index() {
             alignItems="flex-start"
             maxWidth="700px"
           >
-            <Heading mb={2}>Hi, I'm Haadi Majeed</Heading>
+            <Heading mb={2}>Hi, I'm Haadi-Mohammad Majeed</Heading>
             <Text color={colorSecondary[colorMode]}>
               Welcome to Haaduken
               <Link color={colorSecondary[colorMode]} href="/memes">
