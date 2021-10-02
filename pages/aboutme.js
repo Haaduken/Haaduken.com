@@ -35,9 +35,9 @@ export default function Index() {
               I am Haadi Majeed, a senior at Iowa State University majoring in
               Computer Engineering. I have done a good number of projects, both
               for courses and on the side, which can be found both on my GitHub
-              and also on the portfolio tab of the site as well. Also, if you
-              wish to contact me, there is a email button that can be found at
-              the bottom of each page on this site!
+              and also highlights of a few on the portfolio tab of this site as
+              well. Also, if you wish to contact me, there is a email button
+              that can be found at the bottom of each page on this site!
             </Text>
             <br />
             <Text color={colorSecondary[colorMode]}>
