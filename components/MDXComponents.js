@@ -1,5 +1,3 @@
-/** @jsx jsx */
-
 import {
   Alert,
   Box,
@@ -12,7 +10,6 @@ import {
 } from "@chakra-ui/react";
 
 import NextLink from "next/link";
-import { jsx } from "@emotion/react";
 
 const CustomLink = (props) => {
   const { colorMode } = useColorMode();
