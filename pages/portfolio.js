@@ -120,6 +120,24 @@ export default function Index() {
               on my github to respect the university's academic honesty policy,
               however will become public on a future date.
             </Text>
+            <MDXComponents.h3>A Raytracer in C++</MDXComponents.h3>
+            <Text color={colorSecondary[colorMode]}>
+              I personally really enjoyed working on this project, I am
+              currently enrolled in Computer Science 336, Computer Graphics. In
+              it, we are learning how computers render images and scenes via
+              raytracing engines. This project specifically, the task was to
+              create our own raytracer piece by piece. It began with just a
+              simple ray caster that would shoot a single ray per projected
+              pixel to display a sphere in 3D space. This would be labeled as a
+              rudimentary "ray-caster". This would continue to evolve into a
+              proper raytracer. The most recent component added to the project
+              are various material properties that can be added to spheres.
+              Another component that was added is triangles, yes literally, and
+              these are used (currently) as the floor for the renders. The
+              project is still in development as I am stil in the course,
+              however I plan on uploading some images that are rendered that I
+              think are cool as it continues in the blog section of the site.
+            </Text>
           </Flex>
           <Divider mt="1em" borderColor={colorThird[colorMode]} />
           <MDXComponents.h2>Internship at EMC Insurance</MDXComponents.h2>
@@ -146,6 +164,27 @@ export default function Index() {
             technology and companies behind them, I have personally written a
             paper concerning this topic and that can be found by{" "}
             <Link color="#0645AD" href="/codeofethics">
+              clicking here.
+            </Link>
+          </Text>
+          <Divider mt="1em" borderColor={colorThird[colorMode]} />
+          <MDXComponents.h2>General Education Paper</MDXComponents.h2>
+          <Text color={colorSecondary[colorMode]}>
+            Being at ISU for 4 years has let me take a diversity of other
+            courses outside of my degree, I invite you to read my reflection of
+            them by{" "}
+            <Link color="#0645AD" href="/generalreflection">
+              clicking here.
+            </Link>
+          </Text>
+
+          <Divider mt="1em" borderColor={colorThird[colorMode]} />
+          <MDXComponents.h2>Cummulative Reflection Paper</MDXComponents.h2>
+          <Text color={colorSecondary[colorMode]}>
+            I also have taken the time to reflect on my overall academic
+            expereince here at ISU and you can read that reflection by clicking
+            here{" "}
+            <Link color="#0645AD" href="/overallreflection">
               clicking here.
             </Link>
           </Text>
