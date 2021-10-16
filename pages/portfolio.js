@@ -1,4 +1,5 @@
 import {
+  Button,
   Divider,
   Flex,
   Heading,
@@ -59,10 +60,17 @@ export default function Index() {
               this upcoming spring semester. I am also interested in application
               development and full stack.
               <br />
-              You can also find my resume via the tabs above if you want to see
-              most of this information in a more condensed form.
+              You can also download my resume by clicking just below this if you
+              want to see most of this information in a more condensed form.
+              Note that some information has been removed for my privacy, if you
+              would like a completed one, please send me an email using the
+              button at the bottom of the page
+              <br />
+              <br />
             </Text>
-
+            <Link _hover={{ textDecoration: "none" }} href="/static/resume.pdf">
+              <Button>Resume Download</Button>
+            </Link>
             <Divider mt="1em" mb="-2em" borderColor={colorThird[colorMode]} />
             <MDXComponents.h2>Projects</MDXComponents.h2>
 
@@ -182,8 +190,7 @@ export default function Index() {
           <MDXComponents.h2>Cummulative Reflection Paper</MDXComponents.h2>
           <Text color={colorSecondary[colorMode]}>
             I also have taken the time to reflect on my overall academic
-            expereince here at ISU and you can read that reflection by clicking
-            here{" "}
+            expereince here at ISU and you can read that reflection by{" "}
             <Link color="#0645AD" href="/overallreflection">
               clicking here.
             </Link>
