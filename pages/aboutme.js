@@ -1,4 +1,4 @@
-import { Flex, Heading, Stack, Text, useColorMode } from "@chakra-ui/react";
+import { Flex, Heading, Link, Stack, Text, useColorMode } from "@chakra-ui/react";
 
 import Container from "../components/Container";
 import Head from "next/head";
@@ -43,7 +43,10 @@ export default function Index() {
             <Text color={colorSecondary[colorMode]}>
               Along side my studies, I work as an RA in the on-campus dorms for
               the past 2 years in tandem with working on a cyber security
-              research lab on campus called ISEAGE. Both offer their own
+              research lab on campus called ISEAGE
+              <Link color={colorSecondary[colorMode]} href="https://www.youtube.com/watch?v=M5V_IXMewl4">
+                .
+              </Link>{" "} Both offer their own
               challenges on a day to day basis, but rewarding nontheless.
             </Text>
             <br />
