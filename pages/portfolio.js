@@ -76,19 +76,20 @@ export default function Index() {
 
             <MDXComponents.h3>Senior Design</MDXComponents.h3>
             <Text color={colorSecondary[colorMode]}>
-              I am currently enrolled in the first part of senior design, and
+              I am currently enrolled in the second part of senior design, and
               with it comes many challenges. Our overall task is to create a web
               application that works on most standard browsers along with an
               algorithim to determine the best orientation of cables of varying
-              quantities and diameters.This is so the user can find the smallest
-              possible bore size when placing cables underground. Since we are
-              still on the first semester of this course, we have not done much
-              development, but instead we are communicating with our client,
-              Alliant Energy, to clarify and establish our tasks to get the
-              project rolling in the next semester. As we are still early in the
-              project planning cycle, roles are not set in stone, but currently
-              I am set to be QA Engineering on the project. Further updates to
-              the project will be posted as it continues through the semester.
+              quantities and diameters. This is so the user can find the
+              smallest possible bore size when placing cables underground. Since
+              we are still on the first semester of this course, we have not
+              done much development, but instead we are communicating with our
+              client, Alliant Energy, to clarify and establish our tasks to get
+              the project rolling in the next semester. As we are still early in
+              the project planning cycle, roles are not set in stone, but
+              currently I am set to be QA Engineering on the project. Further
+              updates to the project will be posted as it continues through the
+              semester.
             </Text>
 
             <MDXComponents.h3>Personal Website</MDXComponents.h3>
@@ -164,36 +165,6 @@ export default function Index() {
             I got a lot of expereince first-hand on what it is like to be in
             one, as I witnessed one at the end of every sprint the team
             finished.
-          </Text>
-          <Divider mt="1em" borderColor={colorThird[colorMode]} />
-          <MDXComponents.h2>Code of Ethics Paper</MDXComponents.h2>
-          <Text color={colorSecondary[colorMode]}>
-            A topic that came up multiple times was the ethical boundries of
-            technology and companies behind them, I have personally written a
-            paper concerning this topic and that can be found by{" "}
-            <Link color="#0645AD" href="/codeofethics">
-              clicking here.
-            </Link>
-          </Text>
-          <Divider mt="1em" borderColor={colorThird[colorMode]} />
-          <MDXComponents.h2>General Education Paper</MDXComponents.h2>
-          <Text color={colorSecondary[colorMode]}>
-            Being at ISU for 4 years has let me take a diversity of other
-            courses outside of my degree, I invite you to read my reflection of
-            them by{" "}
-            <Link color="#0645AD" href="/generalreflection">
-              clicking here.
-            </Link>
-          </Text>
-
-          <Divider mt="1em" borderColor={colorThird[colorMode]} />
-          <MDXComponents.h2>Cummulative Reflection Paper</MDXComponents.h2>
-          <Text color={colorSecondary[colorMode]}>
-            I also have taken the time to reflect on my overall academic
-            expereince here at ISU and you can read that reflection by{" "}
-            <Link color="#0645AD" href="/overallreflection">
-              clicking here.
-            </Link>
           </Text>
         </Stack>
       </Container>
