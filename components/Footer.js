@@ -23,7 +23,7 @@ const Footer = () => (
   <Flex justify="center">
     {/* <script src="lib/getGitInfo.js"></script> */}
     <div id="gitTime"></div>
-    <Link href="https://github.com/GhastlyFlame" title="GitHub" isExternal>
+    <Link href="https://github.com/Haaduken" title="GitHub" isExternal>
       <IconButton
         aria-label="Github"
         size="lg"
