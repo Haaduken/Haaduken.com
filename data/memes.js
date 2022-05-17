@@ -111,4 +111,24 @@ export const memes = [
     name: "Breathless",
     source: "https://www.youtube.com/watch?v=a_La3oXEbTw",
   },
+  {
+    name: "The Front Fell Off",
+    source: "https://www.youtube.com/watch?v=3m5qxZm_JqM",
+  },
+  {
+    name: "No License",
+    source: "https://www.youtube.com/watch?v=B3EBs7sCOzo",
+  },
+  {
+    name: "THE METS BABY",
+    source: "https://www.youtube.com/watch?v=Du1Xxmxd5Ww",
+  },
+  {
+    name: "Yeah this doesn't feel safe",
+    source: "https://www.youtube.com/watch?v=pyzpidtT6VQ",
+  },
+  {
+    name: "WATCH YO JET",
+    source: "https://www.youtube.com/shorts/8nv6vchiwG8",
+  },
 ];

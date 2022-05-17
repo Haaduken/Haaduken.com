@@ -43,7 +43,7 @@ export default function Index() {
               <Link color={colorSecondary[colorMode]} href="/memes">
                 !
               </Link>{" "}
-              I'm a senior in Computer Engineering at Iowa State University, and
+              I've graduated from Iowa State Engineering with a Bachelors of Science in Computer Engineering, and
               have taken the task of creating a website to learn how to properly
               do front end development. You can read more about the website in
               the blog section. Development of the site going along nicely,
