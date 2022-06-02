@@ -39,9 +39,8 @@ export default function Index() {
           >
             <Heading mb={2}>About Me</Heading>
             <Text color={colorSecondary[colorMode]}>
-              I am Haadi Majeed, a senior at Iowa State University majoring in
-              Computer Engineering. I have done a good number of projects, both
-              for courses and on the side, which can be found both on my GitHub
+              I am Haadi Majeed, and I have recently graduated from Iowa State University with a Bachelors in Computer Engineering. I have done a good number of projects, both 
+              for courses and on the side to learn and develop solutions to problems I've seen or had, some of which can be found both on my GitHub (Most coursework is currently hidden to respect my university's academic honesty policy)
               and also highlights of a few on the portfolio tab of this site as
               well. Also, if you wish to contact me, there is a email button
               that can be found at the bottom of each page on this site!
@@ -58,7 +57,7 @@ export default function Index() {
                 .
               </Link>{" "}
               Both offer their own challenges on a day to day basis, but
-              rewarding nontheless.
+              rewarding nonetheless.
             </Text>
             <br />
           </Flex>
@@ -69,13 +68,7 @@ export default function Index() {
             maxWidth="700px"
           >
             <Text color={colorSecondary[colorMode]}>
-              This current semester at Iowa State is my last one, and I have
-              signed up for quite a few interesting courses, such as an
-              introductory course on Machine Learning, Software Design and
-              Architecture, and Senior Design Part 2. You will be able to find
-              more of the information and code for these projects as the
-              semester draws to an end, they are set to private to respect the
-              university's academic policies.
+              I've recently completed my final semester at ISU, and have excitedly accepted an offer at John Deere working on embedded systems. Along with that I have begun working on a NAS system for my friends and family, a personal VPN, and trying to get some computer upgrades as well.
             </Text>
           </Flex>
         </Stack>
