@@ -54,11 +54,11 @@ export default function Index() {
               force, and my personal projects are a great representation of my
               learning and exploration for my future.
               <br />
-              With that in mind, I am currently interested in artifical
-              intelligence and machine learning, however I am still very early
-              in my learning for the subject with plans to take a course on it
-              this upcoming spring semester. I am also interested in application
-              development and full stack.
+              With that in mind, I am currently interested in artificial
+              intelligence, machine learning, automation, and robotics, however
+              I am still very early in my learning for the subject with plans to
+              take a course on it this upcoming spring semester. I am also
+              interested in application development and full stack.
               <br />
               You can also download my resume by clicking just below this if you
               want to see most of this information in a more condensed form.
@@ -79,7 +79,7 @@ export default function Index() {
               I am currently enrolled in the second part of senior design, and
               with it comes many challenges. Our overall task is to create a web
               application that works on most standard browsers along with an
-              algorithim to determine the best orientation of cables of varying
+              algorithm to determine the best orientation of cables of varying
               quantities and diameters. This is so the user can find the
               smallest possible bore size when placing cables underground. Since
               we are still on the first semester of this course, we have not
@@ -142,10 +142,7 @@ export default function Index() {
               proper raytracer. The most recent component added to the project
               are various material properties that can be added to spheres.
               Another component that was added is triangles, yes literally, and
-              these are used (currently) as the floor for the renders. The
-              project is still in development as I am stil in the course,
-              however I plan on uploading some images that are rendered that I
-              think are cool as it continues in the blog section of the site.
+              these are used (currently) as the floor for the renders.
             </Text>
           </Flex>
           <Divider mt="1em" borderColor={colorThird[colorMode]} />
@@ -158,13 +155,28 @@ export default function Index() {
             for stand-up, we would then go about our tasks that were usually
             self-assigned from the task board. Along with this I would give the
             presentations to demo and explain the week's progress to the product
-            manager and teams that are working in parallel. I throughly enjoyed
+            manager and teams that are working in parallel. I thoroughly enjoyed
             working for EMC and my team taught me a lot, both at a professional
             level, and a technical level. I only had rough ideas on how to give
             proper business presentations to product owners / managers, however
-            I got a lot of expereince first-hand on what it is like to be in
+            I got a lot of experience first-hand on what it is like to be in
             one, as I witnessed one at the end of every sprint the team
             finished.
+          </Text>
+
+          <Divider mt="1em" borderColor={colorThird[colorMode]} />
+          <MDXComponents.h2>Robotics Engineer at John Deere</MDXComponents.h2>
+          <Text color={colorSecondary[colorMode]}>
+            Since completing my undergrad at ISU in May of 2022, I have begun at
+            John Deere as an Embedded Robotics Engineer. I am specifically
+            working on a product for their Sprayer line known as See and Spray.
+            It is truly a very cool project to be on especially since it aligns
+            with my current interests. The overall product is incredibly cool
+            and I am thrilled to be a part of it, you can find more information
+            about it{" "}
+            <Link href="https://www.deere.com/en/sprayers/see-spray-select/">
+              by clicking on these words!
+            </Link>{" "}
           </Text>
         </Stack>
       </Container>
